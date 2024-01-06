@@ -31,7 +31,7 @@ def get_info():
                     raise LenError("Короткая фамилия")
                 else:
                     phone_number = int(input("Введите номер: "))
-                    if len(str(phone_number)) != 3:
+                    if len(str(phone_number)) != 11:
                         raise LenError("Невалидная длина")
                     else:
                         is_valid = True
